@@ -1,18 +1,18 @@
 package Examples;
 
 public class Palindrome {
-	static int num;
+	static int n;
 
 	public static void main(String[] args)
 	{
-		Palindrome obj = new Palindrome(123);
+		Palindrome obj = new Palindrome(11);
 		obj.pal();
 		
 		
 
 	}
-	public Palindrome(int num) {
-		this.num=num;
+	public Palindrome(int n) {
+		this.n=n;
 		
 	}
 	public static boolean checkPalindrome(int n)
@@ -30,7 +30,7 @@ public class Palindrome {
 	}
 	 public static void pal()
 	 {
-		 if(checkPalindrome(num))
+		 if(checkPalindrome(n))
 		 {
 		 System.out.println("This number is palindrome");
 		 }
